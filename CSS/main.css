@@ -1,0 +1,232 @@
+
+header{
+    text-align: center;
+}
+hr{
+    width: 98%;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 0px;
+}
+nav{
+   text-align: center;
+   margin-bottom: 5px;
+}
+nav ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0px;
+    padding: 10px;
+    display: inline-block;
+}
+nav ul li{
+     float: left;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: #9B262A; 
+    font-size: 25px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px grey;
+    margin: 2px;
+    margin-left: 50px;
+    padding: 5px;
+    
+}
+.active{
+    background-color: #18a9ac;
+    color: white;
+}
+nav a:hover{
+    background-color: #18a9ac;
+    color: black;
+}
+.list img{
+   margin-left: 4%;
+   margin-top: auto;
+   margin-bottom: auto;
+   width: 15%;
+   height: 160px;
+}
+#title{
+    text-align: center;
+    color: green;
+    font-size: 25px;
+}
+.float img{
+    margin-left: 13%;
+    height: 115px;
+}
+.float{
+    width: 15%;
+    float:left;
+    margin-left: 8%;
+}
+.left{
+    float: left;
+}
+.center{
+    text-align: center;
+}
+#width{
+    width: 1000px;
+}
+#about_img{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#logos{
+    clear: both;
+}
+
+div.about_text{
+    width:20%;
+    margin-right: 80px;
+    text-align: left;
+}
+#margin{
+    margin-left: 250px;
+}
+h4, h2, h1{
+    color:#18a9ac;
+  }
+  .red{
+    color:#9b262a;
+}
+#top{
+    margin-top: 50px;
+}
+.department_text{
+    width:25%;
+    margin-left: 100px;
+    
+}
+.department_text p{
+    text-align: left;
+}
+
+.clear{
+    clear: left;
+    margin:0px;
+}
+table{
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-left: 60px;
+    margin-right: 100px;
+}
+td{
+    font-size: 150%;
+    color:#18a9ac;
+    padding-bottom: 50px;
+   
+}
+td:nth-child(2n){
+    color:#9b262a;
+    padding-left: 50px;
+}
+.marg{
+    margin-right:100px;
+}
+.right{
+    float: right;
+}
+iframe{
+    margin-left :30px;
+    margin-right: 10px;
+}
+.insuranceContact{
+    font-size: 30px;
+    color:#5A067F;
+    width:500px;
+    font-weight: lighter;
+   
+}
+#width2{
+    width:500px;
+    display: inline-block;
+}
+.contactshadow{
+    text-shadow: 6px 6px 4px grey;
+    color: black;
+}
+.width{
+    width:550px;
+    display: inline-block;
+}
+.margleft{
+    margin-left: 150px
+}
+#p{
+    margin-right: 70px;
+}
+#p p{
+    margin-bottom: 70px;
+}
+#p address{
+    margin-bottom: 100px;
+}
+.form{
+    width: 33.3%;
+    margin-top: 5%;
+}
+input{
+    margin-bottom:2%;
+}
+.widthform{
+    width: 40%;
+}
+.input{
+    width:100%;
+    display: inline-block;
+}
+.subject{
+    width: 100%;
+    display: inline-block;
+}
+textarea{
+    float: left;
+    width: 100%;
+    resize: vertical;
+}
+form textarea::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+.submit{
+    font-size: 1.5vw;
+    float: right;
+    margin-top: 30px;
+    background: #18a9ac;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+.clearfix{
+    content:"";
+    clear: both;
+    display: table;
+}
+/*_______________________________Mobile version 1.1_______________________*/
+
+@media only screen and (max-width: 756px) {
+     nav ul li{
+         width: 33.3%;
+     }
+     nav ul li a{
+         margin-left: 0px;
+     }
+     .list img{
+        display:none;
+     }
+     .pic{
+         display: visible;
+     }
+     .float{
+         text-align: center;
+         width: 100%;
+         margin-left: 0px;
+     }
+}
